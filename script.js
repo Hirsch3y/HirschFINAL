@@ -4,9 +4,9 @@ require(["esri/Map","esri/views/MapView","esri/layers/Layer","esri/WebScene","es
 
     var view = new MapView({map: map,container: "viewDiv",zoom: 5,center: [31.1656,48.3794]});
 
-    var scene = new WebScene({portalItem:{id:"5a54f650e98f401eae9391ed8782eb7a" }});
+    var scene = new WebScene({portalItem:{id:"097eb24bf10a40beba467c9e1b8e92e4" }});
     
-    var view = new SceneView({container: "viewDiv",map: scene,viewingMode:'local'});
+    var view = new SceneView({container: "viewDiv",map: scene,viewingMode:'global'});
     
     var searchWidget = new Search({view: view});
 
